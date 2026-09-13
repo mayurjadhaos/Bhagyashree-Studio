@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+     BHAGYASHREE STUDIO — Jalna, Maharashtra
+     Single-file premium photography studio website (English).
+     See the CONFIG block near the bottom of the JavaScript section
+     for where to edit phone numbers, images, and package prices.
+     ============================================================ -->
+
+<title>Bhagyashree Studio | Photography Studio in Jalna, Maharashtra</title>
+<meta name="description" content="Bhagyashree Studio — a trusted photography &amp; videography studio in Jalna, Maharashtra. Wedding, pre-wedding, birthday, portrait and event photography. Located near Arya Samaj Mandir, R.P. Road, Jalna.">
+<meta name="keywords" content="Bhagyashree Studio, photography studio Jalna, Jalna photographer, wedding photography Jalna, Jalna photo studio, R.P Road Jalna photographer, birthday photography Jalna, photoshoot Jalna">
+<meta name="author" content="Bhagyashree Studio, Jalna">
+<link rel="canonical" href="https://www.bhagyashreestudio-jalna.example/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Bhagyashree Studio | Photography Studio in Jalna, Maharashtra">
+<meta property="og:description" content="Every moment has a beautiful story. Preserve your special moments with Bhagyashree Studio, Jalna.">
+<meta property="og:image" content="https://i.ibb.co/nsx3fKMB/AFP8-Rc-MKEwl-DGC0d-B6v-U1-Uy-YDGts-PCldk-WFH0-SDxi6nov-Quy9-Rd-KDVTSKmob-O3-Awf-ZE2yz-Pt-GUpqe3-Dk17-CF6qb.jpg">
+<meta property="og:locale" content="en_IN">
+<meta property="og:url" content="https://www.bhagyashreestudio-jalna.example/">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bhagyashree Studio | Jalna, Maharashtra">
+<meta name="twitter:description" content="Creating beautiful photographs that turn your most meaningful moments into lasting memories — Jalna, Maharashtra.">
+<meta name="twitter:image" content="https://i.ibb.co/nsx3fKMB/AFP8-Rc-MKEwl-DGC0d-B6v-U1-Uy-YDGts-PCldk-WFH0-SDxi6nov-Quy9-Rd-KDVTSKmob-O3-Awf-ZE2yz-Pt-GUpqe3-Dk17-CF6qb.jpg">
+
+<!-- Fonts (only the weights actually used, for a smaller/faster font payload) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://i.ibb.co" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Preload the hero (LCP) image so it starts downloading immediately -->
+<link rel="preload" as="image" href="https://i.ibb.co/nsx3fKMB/AFP8-Rc-MKEwl-DGC0d-B6v-U1-Uy-YDGts-PCldk-WFH0-SDxi6nov-Quy9-Rd-KDVTSKmob-O3-Awf-ZE2yz-Pt-GUpqe3-Dk17-CF6qb.jpg">
+
+<!-- LocalBusiness / PhotographyBusiness structured data — only verified fields are populated -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PhotographyBusiness",
+  "name": "Bhagyashree Studio",
+  "image": "https://i.ibb.co/nsx3fKMB/AFP8-Rc-MKEwl-DGC0d-B6v-U1-Uy-YDGts-PCldk-WFH0-SDxi6nov-Quy9-Rd-KDVTSKmob-O3-Awf-ZE2yz-Pt-GUpqe3-Dk17-CF6qb.jpg",
+  "telephone": "+91-94234-59487",
+  "email": "bhagyashreedigimix@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R.P. Road, Near Arya Samaj Mandir",
+    "addressLocality": "Jalna",
+    "addressRegion": "Maharashtra",
+    "postalCode": "431203",
+    "addressCountry": "IN"
+  },
+  "url": "https://www.bhagyashreestudio-jalna.example/",
+  "hasMap": "https://maps.app.goo.gl/Hnybs1sGhkQxk3397",
+  "areaServed": "Jalna, Maharashtra",
+  "priceRange": "₹₹"
+}
+</script>
+
+<style>
+/* =====================================================
+   0. DESIGN TOKENS
+   ===================================================== */
+:root{
+  --ink:#221c15;         /* deep warm charcoal-brown, near-black */
+  --ink-soft:#4a4038;
+  --paper:#faf5ec;       /* warm ivory */
+  --paper-2:#f1e7d4;     /* soft beige */
+  --cream:#fffdf8;
+  --gold:#a5793a;        /* muted champagne / antique gold — accent only */
+  --gold-deep:#8a6329;
+  --gold-pale:#d9bd8a;
+  --line:rgba(34,28,21,.13);
+  --line-dark:rgba(255,251,244,.16);
+  --shadow:0 20px 50px -25px rgba(34,20,10,.35);
+  --ease:cubic-bezier(.22,.61,.19,1);
+  --serif-en:'Cormorant Garamond',serif;
+  --sans-en:'Inter',sans-serif;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%;}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important;}
+}
+
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans-en);
+  line-height:1.6;
+  overflow-x:hidden;
+  max-width:100%;
+  -webkit-font-smoothing:antialiased;
+}
+
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+ul{list-style:none;}
+section{position:relative;}
+
+h1,h2,h3{font-family:var(--serif-en);font-weight:600;letter-spacing:.01em;}
+
+.container{width:min(1180px,92%);margin-inline:auto;}
+.container-narrow{width:min(760px,92%);margin-inline:auto;}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.6em;
+  font-family:var(--serif-en);font-style:italic;
+  font-size:.98rem;color:var(--gold-deep);letter-spacing:.02em;
+  margin-bottom:.9rem;
+}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--gold);display:inline-block;}
+
+.section-pad{padding:clamp(64px,9vw,120px) 0;}
+.text-center{text-align:center;}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
+  padding:.95rem 1.9rem;border-radius:2px;
+  font-size:1rem;font-weight:500;letter-spacing:.01em;
+  transition:transform .45s var(--ease),background .35s ease,color .35s ease,border-color .35s ease;
+  white-space:nowrap;
+}
+.btn-primary{background:var(--ink);color:var(--cream);border:1px solid var(--ink);}
+.btn-primary:hover{background:var(--gold-deep);border-color:var(--gold-deep);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:var(--ink);border:1px solid var(--ink);}
+.btn-outline:hover{background:var(--ink);color:var(--cream);transform:translateY(-2px);}
+.btn-gold{background:var(--gold);color:var(--cream);border:1px solid var(--gold);}
+.btn-gold:hover{background:var(--gold-deep);border-color:var(--gold-deep);transform:translateY(-2px);}
+.btn-ghost-light{background:transparent;color:var(--cream);border:1px solid var(--line-dark);}
+.btn-ghost-light:hover{background:var(--cream);color:var(--ink);border-color:var(--cream);transform:translateY(-2px);}
+.btn:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible{
+  outline:2px solid var(--gold-deep);outline-offset:3px;
+}
+
+/* reveal-on-scroll */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease);}
+.reveal.is-visible{opacity:1;transform:translateY(0);}
+
+/* =====================================================
+   1. LOADING SCREEN
+   ===================================================== */
+#loader{
+  position:fixed;inset:0;z-index:9999;
+  background:var(--ink);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:.4rem;
+  transition:opacity .7s var(--ease), visibility .7s var(--ease);
+}
+#loader.hide{opacity:0;visibility:hidden;pointer-events:none;}
+#loader .loader-brand{
+  font-family:var(--serif-en);font-weight:600;font-size:clamp(1.8rem,5vw,2.6rem);color:var(--cream);
+  opacity:0;animation:loaderFadeIn 1s var(--ease) .1s forwards;
+}
+#loader .loader-sub{
+  font-family:var(--sans-en);font-size:.8rem;letter-spacing:.42em;color:var(--gold-pale);
+  text-transform:uppercase;margin-top:.7rem;
+  opacity:0;animation:loaderFadeIn 1s var(--ease) .55s forwards;
+}
+#loader .loader-line{
+  width:0;height:1px;background:var(--gold);margin-top:1.3rem;
+  animation:loaderLine 1s var(--ease) .3s forwards;
+}
+@keyframes loaderFadeIn{to{opacity:1;}}
+@keyframes loaderLine{to{width:64px;}}
+
+/* =====================================================
+   2. NAVIGATION
+   ===================================================== */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  padding:22px 0;
+  transition:padding .4s var(--ease),background .4s var(--ease),border-color .4s var(--ease);
+}
+header.scrolled{
+  padding:12px 0;
+  background:rgba(250,245,236,.86);
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;}
+.brand{display:flex;flex-direction:column;line-height:1.05;}
+.brand .brand-title{font-family:var(--serif-en);font-size:1.4rem;font-weight:600;color:var(--ink);}
+.brand .brand-sub{font-family:var(--sans-en);font-size:.62rem;letter-spacing:.28em;color:var(--gold-deep);margin-top:.25rem;text-transform:uppercase;}
+
+.nav-links{display:flex;align-items:center;gap:1.8rem;}
+.nav-links a{
+  font-size:.98rem;position:relative;padding:4px 0;color:var(--ink-soft);
+  transition:color .3s ease;
+}
+.nav-links a::after{
+  content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--gold-deep);
+  transition:width .35s var(--ease);
+}
+.nav-links a:hover{color:var(--ink);}
+.nav-links a:hover::after{width:100%;}
+
+.nav-right{display:flex;align-items:center;gap:1.3rem;}
+
+.nav-cta{display:none;}
+@media(min-width:860px){.nav-cta{display:inline-flex;}}
+
+.hamburger{
+  display:flex;flex-direction:column;justify-content:center;gap:5px;
+  width:34px;height:34px;
+}
+.hamburger span{width:100%;height:1.5px;background:var(--ink);transition:transform .4s var(--ease),opacity .3s ease;}
+.hamburger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg);}
+@media(min-width:860px){.hamburger{display:none;}}
+.nav-links{display:none;}
+@media(min-width:860px){.nav-links{display:flex;}}
+
+.mobile-menu{
+  position:fixed;inset:0 0 0 auto;width:min(340px,84vw);height:100vh;
+  background:var(--cream);z-index:1100;
+  transform:translateX(100%);transition:transform .5s var(--ease);
+  display:flex;flex-direction:column;padding:100px 34px 34px;gap:1.5rem;
+  box-shadow:-30px 0 60px rgba(0,0,0,.15);
+  overflow-y:auto;
+}
+.mobile-menu.open{transform:translateX(0);}
+.mobile-menu a{font-family:var(--serif-en);font-size:1.3rem;color:var(--ink);}
+.menu-backdrop{
+  position:fixed;inset:0;background:rgba(20,15,10,.4);z-index:1050;
+  opacity:0;visibility:hidden;transition:opacity .4s ease,visibility .4s ease;
+}
+.menu-backdrop.open{opacity:1;visibility:visible;}
+
+/* =====================================================
+   3. HERO
+   ===================================================== */
+.hero{
+  min-height:100svh;display:flex;align-items:flex-end;
+  position:relative;overflow:hidden;color:var(--cream);
+  padding-bottom:clamp(48px,7vw,90px);
+}
+.hero-media{position:absolute;inset:0;z-index:0;overflow:hidden;}
+.hero-media img{
+  width:100%;height:100%;object-fit:cover;
+  transform:scale(1.08);
+  animation:heroZoom 16s ease-out forwards;
+}
+@keyframes heroZoom{to{transform:scale(1);}}
+.hero-media::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(to top, rgba(15,11,7,.92) 0%, rgba(15,11,7,.55) 42%, rgba(15,11,7,.28) 68%, rgba(15,11,7,.42) 100%);
+}
+.hero-inner{position:relative;z-index:1;}
+.hero-tag{
+  font-size:.78rem;letter-spacing:.4em;color:var(--gold-pale);
+  font-family:var(--sans-en);margin-bottom:1.4rem;
+  opacity:0;animation:fadeUp .9s var(--ease) .3s forwards;
+}
+.hero-brand{
+  font-family:var(--serif-en);font-weight:600;
+  font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.08;
+  opacity:0;animation:fadeUp 1s var(--ease) .5s forwards;
+}
+.hero-brand-sub{
+  font-family:var(--sans-en);letter-spacing:.42em;font-size:clamp(.68rem,1.4vw,.9rem);
+  color:var(--gold-pale);margin-top:.8rem;text-transform:uppercase;
+  opacity:0;animation:fadeUp 1s var(--ease) .7s forwards;
+}
+.hero-line{
+  width:64px;height:1px;background:var(--gold);margin:1.7rem 0;
+  opacity:0;animation:fadeUp 1s var(--ease) .85s forwards;
+}
+.hero-headline{
+  font-family:var(--serif-en);font-style:italic;font-weight:500;
+  font-size:clamp(1.5rem,3.4vw,2.5rem);max-width:16ch;line-height:1.3;color:var(--cream);
+  opacity:0;animation:fadeUp 1s var(--ease) 1s forwards;
+}
+.hero-sub{
+  margin-top:1.3rem;max-width:46ch;color:rgba(255,253,248,.86);
+  font-size:clamp(1rem,1.4vw,1.12rem);
+  opacity:0;animation:fadeUp 1s var(--ease) 1.15s forwards;
+}
+.hero-ctas{
+  display:flex;flex-wrap:wrap;gap:1rem;margin-top:2.4rem;
+  opacity:0;animation:fadeUp 1s var(--ease) 1.3s forwards;
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px);}to{opacity:1;transform:translateY(0);}}
+
+.scroll-cue{
+  position:absolute;left:50%;bottom:26px;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:.5rem;
+  color:var(--gold-pale);z-index:1;opacity:.85;
+}
+.scroll-cue .dot-line{width:1px;height:38px;background:linear-gradient(to bottom,var(--gold-pale),transparent);position:relative;overflow:hidden;}
+.scroll-cue .dot-line::after{
+  content:"";position:absolute;top:-38px;left:0;width:100%;height:38px;background:var(--cream);
+  animation:cueMove 2.4s ease-in-out infinite;
+}
+@keyframes cueMove{50%{top:100%;}100%{top:100%;}}
+.scroll-cue span{font-size:.65rem;letter-spacing:.28em;font-family:var(--sans-en);}
+
+/* =====================================================
+   4. ABOUT
+   ===================================================== */
+.about-grid{
+  display:grid;grid-template-columns:1fr;gap:3.2rem;align-items:center;
+}
+@media(min-width:900px){.about-grid{grid-template-columns:.85fr 1.15fr;gap:5rem;}}
+.about-media{position:relative;}
+.about-media .frame{
+  position:relative;border:1px solid var(--gold-pale);
+  padding:16px;
+}
+.about-media img{width:100%;height:clamp(320px,42vw,480px);object-fit:cover;}
+.about-media .stat-chip{
+  position:absolute;bottom:-26px;right:-16px;background:var(--ink);color:var(--cream);
+  padding:1.1rem 1.5rem;box-shadow:var(--shadow);min-width:150px;
+}
+.stat-chip .num{font-family:var(--serif-en);font-size:1.9rem;color:var(--gold-pale);}
+.stat-chip .lbl{font-size:.78rem;color:rgba(255,253,248,.8);margin-top:.15rem;}
+
+.about-copy h2{font-size:clamp(1.7rem,3.2vw,2.5rem);line-height:1.25;margin-bottom:1.4rem;}
+.about-copy p{color:var(--ink-soft);font-size:1.04rem;margin-bottom:1.05rem;max-width:58ch;}
+.approach-list{margin-top:1.8rem;display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.6rem;}
+.approach-list li{
+  display:flex;align-items:flex-start;gap:.7rem;font-size:.98rem;color:var(--ink);
+  padding-top:.9rem;border-top:1px solid var(--line);
+}
+.approach-list li .mark{color:var(--gold-deep);font-family:var(--serif-en);font-style:italic;font-size:1.1rem;line-height:1;}
+
+/* =====================================================
+   5. SERVICES
+   ===================================================== */
+.services-head{max-width:640px;margin-bottom:3rem;}
+.services-head p{margin-top:.9rem;color:var(--ink-soft);font-size:1.02rem;max-width:60ch;}
+.services-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);border:1px solid var(--line);}
+@media(min-width:700px){.services-grid{grid-template-columns:repeat(2,1fr);}}
+@media(min-width:1080px){.services-grid{grid-template-columns:repeat(3,1fr);}}
+.service-card{
+  background:var(--paper);padding:2.4rem 2rem;position:relative;overflow:hidden;
+  transition:background .4s ease;
+}
+.service-card:hover{background:var(--cream);}
+.service-card .simg{width:100%;height:180px;overflow:hidden;margin-bottom:1.4rem;}
+.service-card .simg img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease);}
+.service-card:hover .simg img{transform:scale(1.08);}
+.service-card h3{font-size:1.28rem;margin-bottom:.6rem;}
+.service-card p{margin-top:.4rem;color:var(--ink-soft);font-size:.96rem;}
+
+/* =====================================================
+   6. PACKAGES
+   ===================================================== */
+.packages-grid{display:grid;grid-template-columns:1fr;gap:1.6rem;margin-top:2.6rem;}
+@media(min-width:760px){.packages-grid{grid-template-columns:repeat(3,1fr);}}
+.package-card{
+  background:var(--cream);border:1px solid var(--line);padding:2.6rem 2.2rem;
+  display:flex;flex-direction:column;gap:.2rem;position:relative;
+  transition:border-color .35s ease, transform .35s ease, box-shadow .35s ease;
+}
+.package-card:hover{border-color:var(--gold);transform:translateY(-6px);box-shadow:var(--shadow);}
+.package-card.featured{border-color:var(--gold-deep);}
+.package-card .pkg-badge{
+  position:absolute;top:0;right:1.8rem;transform:translateY(-50%);
+  background:var(--gold-deep);color:var(--cream);font-size:.68rem;letter-spacing:.1em;
+  padding:.35rem .9rem;text-transform:uppercase;font-family:var(--sans-en);
+}
+.package-card .pkg-icon{font-size:1.7rem;line-height:1;margin-bottom:.9rem;}
+.package-card h3{font-size:1.4rem;margin-bottom:.2rem;}
+.package-card .pkg-price{font-family:var(--serif-en);font-size:2.1rem;color:var(--ink);margin:.3rem 0 .8rem;}
+.package-card .pkg-price span{font-family:var(--sans-en);font-size:.62rem;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase;margin-left:.5rem;}
+.package-card .pkg-desc{color:var(--ink-soft);font-size:.94rem;margin-bottom:1.2rem;}
+.package-card .pkg-features{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.6rem;}
+.package-card .pkg-features li{display:flex;gap:.6rem;align-items:flex-start;font-size:.92rem;color:var(--ink-soft);}
+.package-card .pkg-features li .mark{color:var(--gold-deep);font-family:var(--serif-en);font-style:italic;flex-shrink:0;}
+.package-card .btn{margin-top:auto;width:100%;}
+.packages-note{margin-top:1.8rem;font-size:.85rem;color:var(--ink-soft);text-align:center;max-width:70ch;margin-inline:auto;}
+
+/* ---- Package categories (with photo slider) ---- */
+.pkg-categories{display:flex;flex-direction:column;gap:2.4rem;margin-top:2.6rem;}
+.pkg-category{
+  background:var(--cream);border:1px solid var(--line);
+  transition:border-color .35s ease, box-shadow .35s ease;
+}
+.pkg-category:hover{border-color:var(--gold-pale);box-shadow:var(--shadow);}
+
+.pkg-slider-wrap{position:relative;background:var(--paper-2);}
+.pkg-slider{
+  display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;padding:8px;scroll-behavior:smooth;
+  scrollbar-width:none;
+}
+.pkg-slider::-webkit-scrollbar{display:none;}
+.pkg-slider img{
+  flex:0 0 auto;width:min(80vw,300px);height:220px;object-fit:cover;
+  scroll-snap-align:start;background:var(--paper-2);cursor:zoom-in;
+  transition:opacity .3s ease;
+}
+.pkg-slider img:hover{opacity:.88;}
+.pkg-nav{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:38px;height:38px;border-radius:50%;
+  background:rgba(34,28,21,.55);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.2rem;z-index:2;transition:background .3s ease;
+}
+.pkg-nav:hover{background:rgba(34,28,21,.82);}
+.pkg-nav.prev{left:10px;}
+.pkg-nav.next{right:10px;}
+@media(max-width:560px){.pkg-nav{width:32px;height:32px;font-size:1rem;}}
+
+.pkg-category-body{padding:clamp(1.6rem,3vw,2.4rem);}
+.pkg-category-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.7rem;margin-bottom:.3rem;}
+.pkg-category-head h3{font-size:clamp(1.3rem,2.4vw,1.6rem);}
+.pkg-category-head .pkg-icon{font-size:1.5rem;}
+.pkg-single-price{font-family:var(--serif-en);font-size:1.7rem;color:var(--gold-deep);}
+.pkg-cat-desc{color:var(--ink-soft);font-size:.95rem;margin:.5rem 0 1.3rem;max-width:70ch;}
+
+.pkg-tiers{display:grid;grid-template-columns:1fr;gap:1.3rem;}
+@media(min-width:700px){.pkg-tiers.tiers-2{grid-template-columns:repeat(2,1fr);}}
+@media(min-width:760px){.pkg-tiers.tiers-3{grid-template-columns:repeat(3,1fr);}}
+
+.pkg-tier{
+  border:1px solid var(--line);padding:1.5rem 1.4rem;
+  display:flex;flex-direction:column;gap:.15rem;
+  transition:border-color .3s ease, transform .3s ease;
+}
+.pkg-tier:hover{border-color:var(--gold);transform:translateY(-4px);}
+.pkg-tier .tier-name{
+  font-family:var(--serif-en);font-style:italic;font-size:1.02rem;color:var(--gold-deep);
+}
+.pkg-tier .tier-price{font-family:var(--serif-en);font-size:1.65rem;margin:.2rem 0 .8rem;}
+.pkg-tier ul{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.3rem;}
+.pkg-tier ul li{display:flex;gap:.55rem;align-items:flex-start;font-size:.9rem;color:var(--ink-soft);}
+.pkg-tier ul li .mark{color:var(--gold-deep);font-family:var(--serif-en);font-style:italic;flex-shrink:0;}
+.pkg-tier .btn{margin-top:auto;width:100%;}
+
+.pkg-special-note{
+  margin-top:1.5rem;padding-top:1.2rem;border-top:1px dashed var(--gold-pale);
+  font-size:.9rem;color:var(--ink-soft);
+}
+.pkg-special-note b{color:var(--ink);}
+
+/* =====================================================
+   7. GALLERY
+   ===================================================== */
+.gallery-filters{display:flex;flex-wrap:wrap;gap:.7rem;margin-bottom:2.6rem;}
+.gfilter{
+  padding:.55rem 1.3rem;border:1px solid var(--line);font-size:.92rem;color:var(--ink-soft);
+  border-radius:22px;transition:all .3s ease;font-family:var(--sans-en);
+}
+.gfilter.active,.gfilter:hover{background:var(--ink);color:var(--cream);border-color:var(--ink);}
+
+.masonry{column-count:1;column-gap:14px;}
+@media(min-width:640px){.masonry{column-count:2;}}
+@media(min-width:1000px){.masonry{column-count:3;}}
+.g-item{
+  break-inside:avoid;margin-bottom:14px;position:relative;overflow:hidden;cursor:pointer;
+  transition:opacity .35s ease, transform .35s ease;
+}
+.g-item.hidden-item{display:none;}
+.g-item img{width:100%;display:block;transition:transform .8s var(--ease);}
+.g-item:hover img{transform:scale(1.06);}
+.g-item .g-overlay{
+  position:absolute;inset:0;background:linear-gradient(to top,rgba(15,11,7,.72),transparent 55%);
+  opacity:0;transition:opacity .4s ease;display:flex;align-items:flex-end;padding:16px;
+}
+.g-item:hover .g-overlay{opacity:1;}
+.g-overlay span{color:var(--cream);font-size:.86rem;font-family:var(--sans-en);}
+
+/* lightbox */
+.lightbox{
+  position:fixed;inset:0;background:rgba(12,9,6,.96);z-index:1200;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;visibility:hidden;transition:opacity .4s ease,visibility .4s ease;
+}
+.lightbox.open{opacity:1;visibility:visible;}
+.lightbox img{max-width:min(88vw,980px);max-height:82vh;object-fit:contain;box-shadow:0 30px 80px rgba(0,0,0,.5);}
+.lb-close,.lb-prev,.lb-next{
+  position:absolute;color:var(--cream);background:rgba(255,255,255,.08);
+  width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:1.3rem;transition:background .3s ease;
+}
+.lb-close:hover,.lb-prev:hover,.lb-next:hover{background:rgba(255,255,255,.2);}
+.lb-close{top:24px;right:24px;}
+.lb-prev{left:18px;top:50%;transform:translateY(-50%);}
+.lb-next{right:18px;top:50%;transform:translateY(-50%);}
+@media(max-width:640px){.lb-prev{left:8px;}.lb-next{right:8px;}}
+
+/* =====================================================
+   8. HIGHLIGHTS (dark band)
+   ===================================================== */
+.highlights{background:var(--ink);color:var(--cream);}
+.highlights-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);
+}
+@media(min-width:760px){.highlights-grid{grid-template-columns:repeat(4,1fr);}}
+.hl-item{
+  padding:2.2rem 1.4rem;border-left:1px solid var(--line-dark);text-align:center;
+}
+.hl-item:first-child{border-left:none;}
+@media(max-width:759px){.hl-item:nth-child(odd){border-left:none;}}
+.hl-item .hnum{font-family:var(--serif-en);font-size:clamp(1.7rem,3.4vw,2.5rem);color:var(--gold-pale);}
+.hl-item .hlbl{display:block;font-family:var(--sans-en);font-size:.86rem;letter-spacing:.06em;margin-top:.6rem;color:rgba(255,253,248,.82);}
+
+/* =====================================================
+   9. REVIEWS
+   ===================================================== */
+.reviews-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1.4rem;margin-bottom:2.6rem;}
+.review-card{
+  background:var(--cream);border:1px solid var(--line);padding:2rem;height:100%;
+  display:flex;flex-direction:column;gap:1rem;
+}
+.review-card .stars{color:var(--gold);letter-spacing:.15em;font-size:1rem;}
+.review-card p{color:var(--ink-soft);font-size:.98rem;flex:1;}
+.review-card .who{font-size:.92rem;color:var(--ink);font-weight:600;}
+.reviews-grid{display:grid;grid-template-columns:1fr;gap:1.4rem;}
+@media(min-width:760px){.reviews-grid{grid-template-columns:repeat(3,1fr);}}
+.review-placeholder{
+  border:1px dashed var(--gold-pale);background:var(--paper-2);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;gap:.8rem;padding:2.4rem 1.6rem;color:var(--ink-soft);
+}
+.google-badge{
+  display:inline-flex;align-items:center;gap:.5rem;font-size:.9rem;color:var(--ink-soft);
+  border:1px solid var(--line);padding:.5rem 1rem;border-radius:22px;
+}
+
+/* =====================================================
+   10. WHY CHOOSE
+   ===================================================== */
+.why-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:2.6rem;}
+@media(min-width:680px){.why-grid{grid-template-columns:repeat(2,1fr);}}
+@media(min-width:1000px){.why-grid{grid-template-columns:repeat(3,1fr);}}
+.why-item{background:var(--paper);padding:2.2rem;}
+.why-item .w-mark{font-family:var(--serif-en);font-style:italic;font-size:1.6rem;color:var(--gold-deep);}
+.why-item h3{margin-top:.8rem;font-family:var(--serif-en);font-size:1.18rem;font-weight:600;}
+.why-item p{margin-top:.5rem;font-size:.92rem;color:var(--ink-soft);}
+
+/* =====================================================
+   11. LOCATION + VIDEO
+   ===================================================== */
+.video-wrap{position:relative;width:100%;padding-top:56.25%;background:var(--ink);overflow:hidden;margin-bottom:2.6rem;box-shadow:var(--shadow);}
+.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+
+.location-wrap{display:grid;grid-template-columns:1fr;gap:2.4rem;}
+@media(min-width:900px){.location-wrap{grid-template-columns:1fr 1.1fr;}}
+.location-wrap>*{min-width:0;}
+.loc-card{
+  background:var(--ink);color:var(--cream);padding:2.6rem;display:flex;flex-direction:column;gap:1.5rem;justify-content:center;
+}
+.loc-card .btn{white-space:normal;text-align:center;}
+.loc-card h3{font-family:var(--serif-en);font-size:1.5rem;}
+.loc-row{display:flex;gap:.9rem;align-items:flex-start;font-size:.98rem;color:rgba(255,253,248,.88);}
+.loc-row .ic{color:var(--gold-pale);}
+.map-embed{width:100%;height:100%;min-height:340px;border:0;filter:grayscale(.15) contrast(1.02);}
+
+/* =====================================================
+   12. CONTACT / FORM
+   ===================================================== */
+.contact-wrap{display:grid;grid-template-columns:1fr;gap:3rem;}
+@media(min-width:960px){.contact-wrap{grid-template-columns:.9fr 1.1fr;}}
+.contact-wrap>*{min-width:0;}
+.contact-info h2{font-size:clamp(1.6rem,3vw,2.3rem);margin-bottom:1.2rem;line-height:1.3;}
+.contact-info p{color:var(--ink-soft);margin-bottom:1.8rem;max-width:46ch;}
+.contact-btns{display:flex;flex-wrap:wrap;gap:.9rem;}
+.contact-detail{margin-top:2.2rem;display:flex;flex-direction:column;gap:.8rem;font-size:.98rem;color:var(--ink-soft);}
+.contact-detail b{color:var(--ink);font-weight:600;}
+
+.form-card{background:var(--cream);border:1px solid var(--line);padding:2.4rem;}
+.form-row{display:grid;grid-template-columns:1fr;gap:1.2rem;}
+@media(min-width:560px){.form-row.two{grid-template-columns:1fr 1fr;}}
+.field{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.2rem;}
+.field label{font-size:.86rem;color:var(--ink-soft);}
+.field input, .field textarea, .field select{
+  padding:.85rem 1rem;border:1px solid var(--line);background:var(--paper);
+  font-family:inherit;font-size:.98rem;color:var(--ink);transition:border-color .3s ease;
+}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--gold-deep);outline:none;}
+.field textarea{resize:vertical;min-height:100px;}
+.field select{appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%238a6329' stroke-width='1.6' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 1rem center;padding-right:2.4rem;}
+.form-submit{width:100%;margin-top:.4rem;}
+
+/* =====================================================
+   13. FINAL CTA
+   ===================================================== */
+.final-cta{
+  position:relative;color:var(--cream);text-align:center;overflow:hidden;
+}
+.final-cta .fc-media{position:absolute;inset:0;z-index:0;}
+.final-cta .fc-media img{width:100%;height:100%;object-fit:cover;}
+.final-cta .fc-media::after{content:"";position:absolute;inset:0;background:rgba(15,11,7,.82);}
+.final-cta .fc-inner{position:relative;z-index:1;padding:clamp(70px,10vw,120px) 0;}
+.final-cta h2{font-size:clamp(1.9rem,4.4vw,3.1rem);max-width:20ch;margin-inline:auto;line-height:1.28;}
+.final-cta p{margin-top:1.2rem;color:rgba(255,253,248,.85);font-size:1.05rem;}
+.final-ctas{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2.4rem;}
+
+/* =====================================================
+   14. FOOTER
+   ===================================================== */
+footer{background:var(--paper-2);padding:64px 0 28px;}
+.footer-grid{display:grid;grid-template-columns:1fr;gap:2.6rem;padding-bottom:2.6rem;border-bottom:1px solid var(--line);}
+@media(min-width:800px){.footer-grid{grid-template-columns:1.3fr 1fr 1fr;}}
+.footer-brand-title{font-family:var(--serif-en);font-size:1.45rem;}
+.footer-brand-sub{font-family:var(--sans-en);font-size:.64rem;letter-spacing:.28em;color:var(--gold-deep);margin-top:.3rem;text-transform:uppercase;}
+.footer-tagline{margin-top:1rem;color:var(--ink-soft);font-size:.95rem;max-width:34ch;}
+.footer-col h4{font-size:.82rem;letter-spacing:.1em;color:var(--gold-deep);margin-bottom:1rem;text-transform:uppercase;font-family:var(--sans-en);}
+.footer-col a, .footer-col p{display:block;color:var(--ink-soft);font-size:.94rem;margin-bottom:.6rem;}
+.footer-bottom{padding-top:1.6rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.8rem;font-size:.84rem;color:var(--ink-soft);}
+
+/* =====================================================
+   15. FLOATING BUTTONS
+   ===================================================== */
+.floating-btns{position:fixed;right:20px;bottom:96px;z-index:900;display:flex;flex-direction:column;gap:.8rem;}
+@media(min-width:760px){.floating-btns{bottom:26px;}}
+.fbtn{
+  width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px rgba(0,0,0,.25);font-size:1.4rem;color:#fff;transition:transform .3s ease;
+}
+.fbtn:hover{transform:scale(1.08);}
+.fbtn.whatsapp{background:#25D366;}
+.fbtn.call{background:var(--ink);}
+
+.mobile-stickybar{
+  position:fixed;left:0;right:0;bottom:0;z-index:880;
+  display:grid;grid-template-columns:repeat(3,1fr);
+  background:var(--ink);color:var(--cream);
+}
+@media(min-width:760px){.mobile-stickybar{display:none;}}
+.mobile-stickybar a{
+  display:flex;flex-direction:column;align-items:center;gap:.15rem;padding:.75rem 0;font-size:.72rem;
+  border-right:1px solid var(--line-dark);
+}
+.mobile-stickybar a:last-child{border-right:none;}
+.mobile-stickybar .ic{font-size:1.15rem;}
+@media(min-width:760px){body{padding-bottom:0;}}
+@media(max-width:759px){body{padding-bottom:58px;}}
+
+.skip-link{
+  position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--cream);padding:10px 16px;z-index:2000;
+}
+.skip-link:focus{left:12px;top:12px;}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ================= LOADER ================= -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-brand">Bhagyashree Studio</div>
+  <div class="loader-line"></div>
+  <div class="loader-sub">Photography Studio</div>
+</div>
+
+<!-- ================= NAVIGATION ================= -->
+<header id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#home" class="brand" aria-label="Bhagyashree Studio home">
+      <span class="brand-title">Bhagyashree Studio</span>
+      <span class="brand-sub">Photography Studio &bull; Jalna</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <a href="#packages" class="btn btn-primary nav-cta">Book Now</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#packages">Packages</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="https://i.ibb.co/nsx3fKMB/AFP8-Rc-MKEwl-DGC0d-B6v-U1-Uy-YDGts-PCldk-WFH0-SDxi6nov-Quy9-Rd-KDVTSKmob-O3-Awf-ZE2yz-Pt-GUpqe3-Dk17-CF6qb.jpg"
+         alt="Photograph by Bhagyashree Studio, representing the studio's photography style"
+         fetchpriority="high" decoding="async">
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-tag">JALNA &bull; MAHARASHTRA</div>
+    <h1 class="hero-brand">Bhagyashree Studio</h1>
+    <div class="hero-brand-sub">Photography &amp; Videography Studio</div>
+    <div class="hero-line"></div>
+    <p class="hero-headline">The Art of Preserving Moments.</p>
+    <p class="hero-sub">Creating beautiful photographs that turn your most meaningful moments into lasting memories.</p>
+    <div class="hero-ctas">
+      <a href="#gallery" class="btn btn-gold">📸 View Our Work</a>
+      <a href="#" id="heroWhatsapp" class="btn btn-ghost-light" target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true">
+    <span>SCROLL</span>
+    <div class="dot-line"></div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section-pad" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-media reveal">
+        <div class="frame">
+          <img loading="lazy" decoding="async" src="https://i.ibb.co/8g9CZqrd/AFP8-Rc-PIFmp-X2r-Y8kg4-KEuv-Sc-RHky-7-HRylkk-Jd2-RCo-OPap-Qv-Wh-NN9k-Zm68-D26-Zx-WRV8-Da-Fl-Fn-ANj3lx-zjj.jpg"
+               alt="Photography studio setup representing Bhagyashree Studio, Jalna">
+          <div class="stat-chip">
+            <div class="num">19+</div>
+            <div class="lbl">Years of Experience</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-copy reveal">
+        <div class="eyebrow">About Bhagyashree Studio</div>
+        <h2>More Than Photographs. Memories That Last.</h2>
+        <p>Bhagyashree Studio is a trusted photography and videography studio located on R.P. Road, near Arya Samaj Mandir, in Jalna, Maharashtra. For many years, we have been proud to capture the special moments of families across Jalna.</p>
+        <p>Every shoot is more than just taking pictures — it's an honest attempt to capture your emotions, relationships, and moments exactly as they are.</p>
+        <ul class="approach-list">
+          <li><span class="mark">✦</span><span>Natural, unscripted moments</span></li>
+          <li><span class="mark">✦</span><span>Beautiful composition</span></li>
+          <li><span class="mark">✦</span><span>Professional service</span></li>
+          <li><span class="mark">✦</span><span>Personal attention</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section-pad" id="services" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="services-head reveal">
+      <div class="eyebrow">Our Services</div>
+      <h2>For every special occasion in your life.</h2>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="simg"><img loading="lazy" src="https://i.ibb.co/vxC9ZDH7/PVD-9579.jpg" alt="Wedding photography by Bhagyashree Studio"></div>
+        <h3>Wedding Photography</h3>
+        <p>Beautifully preserving every special moment from your wedding.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="simg"><img loading="lazy" src="https://i.ibb.co/WNqfQ5PS/IMG-20260910-105709.jpg" alt="Pre-wedding photography session"></div>
+        <h3>Pre-Wedding Shoot</h3>
+        <p>Capturing the tender moments of your relationship, beautifully.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="simg"><img loading="lazy" src="https://i.ibb.co/67GB97xx/624228314-18100258447849364-7541530437121340803-n.webp" alt="Event and function photography"></div>
+        <h3>Event Photography</h3>
+        <p>Professional coverage for birthdays, functions and celebrations.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="simg"><img loading="lazy" src="https://i.ibb.co/3ybcdx7C/AFP8-Rc-PCUa-SYf-OQs-Li-Danon-Q1bfw-FVd-Ks-Pzd-AJCplk-BEQWp-VJUli-Iz7d-Ym-qgwn8-Tlt-Protf-Tx1-TF8-GZ9z-C.jpg" alt="Portrait and studio photography"></div>
+        <h3>Portrait &amp; Studio</h3>
+        <p>Beautiful portraits with professional studio lighting.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="simg"><img loading="lazy" src="https://i.ibb.co/67RvMMDT/AFP8-Rc-Ni4-Fzr-YHf-XLj0l-Ab-Si-Hg-EYa6uc-C8-Pjhcdgdqc-Ys-RH2qveb-RSf-OTD5w2nw-1-WZz-LI-Pu-PBm-H03-X3-XTM9.jpg" alt="Family photography session"></div>
+        <h3>Family Photography</h3>
+        <p>Preserving special moments with your entire family, together.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="simg"><img loading="lazy" src="https://i.ibb.co/d4k98G3Q/AFP8-Rc-Plmeg-EV4qwcknwp0-Iic-Uqhr6-J-JL6-M7x-WRGFBJG5zis-YPUYQ3-Pj8-ZYCen-E63-XW9e-UOZn-LL9-Swb9-HMO0f-P-tm.jpg" alt="Videography and cinematic coverage"></div>
+        <h3>Videography</h3>
+        <p>Beautiful video coverage of your special occasions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PACKAGES / BOOKING ================= -->
+<section class="section-pad" id="packages">
+  <div class="container">
+    <div class="services-head reveal">
+      <div class="eyebrow">Book With Us</div>
+      <h2>Simple Packages, Transparent Pricing.</h2>
+      <p>Browse real photographs from each type of shoot, pick the package that fits your occasion, and tap "Book This Package" — the full details go straight to us on WhatsApp so we can confirm your booking.</p>
+    </div>
+
+    <div class="pkg-categories">
+
+      <!-- ===== WEDDING PHOTOGRAPHY ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-slider-wrap">
+          <div class="pkg-slider" tabindex="0" aria-label="Wedding photography gallery">
+            <img loading="lazy" src="https://i.ibb.co/4ZLgWcd1/PVD-9579.jpg" alt="Wedding photography by Bhagyashree Studio 1">
+            <img loading="lazy" src="https://i.ibb.co/rRM9jbq3/PVD-9578.jpg" alt="Wedding photography by Bhagyashree Studio 2">
+            <img loading="lazy" src="https://i.ibb.co/HpFmrzKC/PVD-9042.jpg" alt="Wedding photography by Bhagyashree Studio 3">
+            <img loading="lazy" src="https://i.ibb.co/YBYykLyL/PVD-9883.jpg" alt="Wedding photography by Bhagyashree Studio 4">
+            <img loading="lazy" src="https://i.ibb.co/156Hx6v/PVD-9137.jpg" alt="Wedding photography by Bhagyashree Studio 5">
+            <img loading="lazy" src="https://i.ibb.co/67GZTDzF/PVD-0478.jpg" alt="Wedding photography by Bhagyashree Studio 6">
+            <img loading="lazy" src="https://i.ibb.co/bgGgp8zF/PVD-9041.jpg" alt="Wedding photography by Bhagyashree Studio 7">
+            <img loading="lazy" src="https://i.ibb.co/tTXTJ8PF/PVD-9880.jpg" alt="Wedding photography by Bhagyashree Studio 8">
+            <img loading="lazy" src="https://i.ibb.co/pvQjmyzZ/PVD-0079.jpg" alt="Wedding photography by Bhagyashree Studio 9">
+            <img loading="lazy" src="https://i.ibb.co/27gFkbXq/PVD-0033.jpg" alt="Wedding photography by Bhagyashree Studio 10">
+            <img loading="lazy" src="https://i.ibb.co/HD4Lwx1t/PVD-0302.jpg" alt="Wedding photography by Bhagyashree Studio 11">
+            <img loading="lazy" src="https://i.ibb.co/Rpd5LdBg/PVD-0081.jpg" alt="Wedding photography by Bhagyashree Studio 12">
+            <img loading="lazy" src="https://i.ibb.co/Txdp24BR/PVD-0077.jpg" alt="Wedding photography by Bhagyashree Studio 13">
+          </div>
+          <button type="button" class="pkg-nav prev" aria-label="Previous photos">‹</button>
+          <button type="button" class="pkg-nav next" aria-label="Next photos">›</button>
+        </div>
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">💍</span>
+            <h3>Wedding Photography</h3>
+          </div>
+          <div class="pkg-single-price">₹1,05,000</div>
+          <p class="pkg-cat-desc">Complete wedding-day coverage, from candid moments to cinematic memories.</p>
+          <div class="pkg-tiers tiers-1">
+            <div class="pkg-tier">
+              <ul>
+                <li><span class="mark">✦</span><span>Traditional Photography &amp; Candid Photography</span></li>
+                <li><span class="mark">✦</span><span>Cinematic Videography</span></li>
+                <li><span class="mark">✦</span><span>Drone Shoot</span></li>
+                <li><span class="mark">✦</span><span>3-Hour Traditional Video Coverage</span></li>
+                <li><span class="mark">✦</span><span>40 Pages Album</span></li>
+                <li><span class="mark">✦</span><span>Cinematic Highlight Video &amp; Teaser</span></li>
+                <li><span class="mark">✦</span><span>Table Calendar &amp; Mini Book</span></li>
+                <li><span class="mark">✦</span><span>All High-Resolution Soft Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Wedding Photography" data-price="₹1,05,000"
+                data-details="Traditional Photography & Candid Photography|Cinematic Videography|Drone Shoot|3-Hour Traditional Video Coverage|40 Pages Album|Cinematic Highlight Video & Teaser|Table Calendar|Mini Book|All High-Resolution Soft Copies">
+                Book This Package</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== MATERNITY PHOTOGRAPHY ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-slider-wrap">
+          <div class="pkg-slider" tabindex="0" aria-label="Maternity photography gallery">
+            <img loading="lazy" src="https://i.ibb.co/p6WjcYRd/DSC00248.jpg" alt="Maternity photography by Bhagyashree Studio 1">
+            <img loading="lazy" src="https://i.ibb.co/mC0Lmz1g/DSC00094.jpg" alt="Maternity photography by Bhagyashree Studio 2">
+            <img loading="lazy" src="https://i.ibb.co/k6vqsrwd/DSC00206.jpg" alt="Maternity photography by Bhagyashree Studio 3">
+            <img loading="lazy" src="https://i.ibb.co/RGyQJpDJ/DSC07049.jpg" alt="Maternity photography by Bhagyashree Studio 4">
+            <img loading="lazy" src="https://i.ibb.co/BVhNLCmp/510A5874.jpg" alt="Maternity photography by Bhagyashree Studio 5">
+            <img loading="lazy" src="https://i.ibb.co/WvKGQ9Ww/DSC00103.jpg" alt="Maternity photography by Bhagyashree Studio 6">
+            <img loading="lazy" src="https://i.ibb.co/CpfLxVLV/510A5889.jpg" alt="Maternity photography by Bhagyashree Studio 7">
+            <img loading="lazy" src="https://i.ibb.co/Kxsd0J0N/DSC06534.jpg" alt="Maternity photography by Bhagyashree Studio 8">
+            <img loading="lazy" src="https://i.ibb.co/DHcRDzg5/510A5926.jpg" alt="Maternity photography by Bhagyashree Studio 9">
+            <img loading="lazy" src="https://i.ibb.co/m72JkJW/DSC03438.jpg" alt="Maternity photography by Bhagyashree Studio 10">
+          </div>
+          <button type="button" class="pkg-nav prev" aria-label="Previous photos">‹</button>
+          <button type="button" class="pkg-nav next" aria-label="Next photos">›</button>
+        </div>
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">🤰</span>
+            <h3>Maternity Photography</h3>
+          </div>
+          <p class="pkg-cat-desc">Gentle, beautifully lit photography to celebrate this special phase.</p>
+          <div class="pkg-tiers tiers-3">
+            <div class="pkg-tier">
+              <div class="tier-name">Standard</div>
+              <div class="tier-price">₹4,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>10 Edited Copies</span></li>
+                <li><span class="mark">✦</span><span>Professional Makeup Included</span></li>
+                <li><span class="mark">✦</span><span>1 Costume Provided</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Maternity Photography" data-tier="Standard" data-price="₹4,999"
+                data-details="10 Edited Copies|Professional Makeup Included|1 Costume Provided">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Premium</div>
+              <div class="tier-price">₹6,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>20 Edited Copies</span></li>
+                <li><span class="mark">✦</span><span>Professional Makeup Included</span></li>
+                <li><span class="mark">✦</span><span>2 Costumes Provided</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Maternity Photography" data-tier="Premium" data-price="₹6,999"
+                data-details="20 Edited Copies|Professional Makeup Included|2 Costumes Provided">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Deluxe</div>
+              <div class="tier-price">₹9,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>40 Edited Copies</span></li>
+                <li><span class="mark">✦</span><span>Professional Makeup Included</span></li>
+                <li><span class="mark">✦</span><span>2 Costumes Provided</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Maternity Photography" data-tier="Deluxe" data-price="₹9,999"
+                data-details="40 Edited Copies|Professional Makeup Included|2 Costumes Provided">
+                Book This Package</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== NEWBORN BABY PHOTOGRAPHY ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-slider-wrap">
+          <div class="pkg-slider" tabindex="0" aria-label="Newborn baby photography gallery">
+            <img loading="lazy" src="https://i.ibb.co/JWMBnnTg/SAVE-20260909-181632.jpg" alt="Newborn baby photography by Bhagyashree Studio 1">
+            <img loading="lazy" src="https://i.ibb.co/JFdkXHNb/DSC01449.jpg" alt="Newborn baby photography by Bhagyashree Studio 2">
+            <img loading="lazy" src="https://i.ibb.co/1Yq815c9/DSC01507.jpg" alt="Newborn baby photography by Bhagyashree Studio 3">
+            <img loading="lazy" src="https://i.ibb.co/whP1KLNX/DSC01516.jpg" alt="Newborn baby photography by Bhagyashree Studio 4">
+            <img loading="lazy" src="https://i.ibb.co/gMqmpjBs/DSC01541.jpg" alt="Newborn baby photography by Bhagyashree Studio 5">
+            <img loading="lazy" src="https://i.ibb.co/8ttHV29/DSC00635.jpg" alt="Newborn baby photography by Bhagyashree Studio 6">
+            <img loading="lazy" src="https://i.ibb.co/L4MTk7W/DSC01573.jpg" alt="Newborn baby photography by Bhagyashree Studio 7">
+            <img loading="lazy" src="https://i.ibb.co/gZ44cSFv/DSC00717.jpg" alt="Newborn baby photography by Bhagyashree Studio 8">
+            <img loading="lazy" src="https://i.ibb.co/jm8czVW/DSC00394.jpg" alt="Newborn baby photography by Bhagyashree Studio 9">
+            <img loading="lazy" src="https://i.ibb.co/mCnvjspG/DSC00620.jpg" alt="Newborn baby photography by Bhagyashree Studio 10">
+          </div>
+          <button type="button" class="pkg-nav prev" aria-label="Previous photos">‹</button>
+          <button type="button" class="pkg-nav next" aria-label="Next photos">›</button>
+        </div>
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">👶</span>
+            <h3>Newborn Baby Photography</h3>
+          </div>
+          <p class="pkg-cat-desc">Soft, safe and precious portraits of your little one's earliest days.</p>
+          <div class="pkg-tiers tiers-3">
+            <div class="pkg-tier">
+              <div class="tier-name">Basic</div>
+              <div class="tier-price">₹3,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>10 High-Quality Edited Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Newborn Baby Photography" data-tier="Basic" data-price="₹3,999"
+                data-details="10 High-Quality Edited Copies">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Standard</div>
+              <div class="tier-price">₹5,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>20 High-Quality Edited Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Newborn Baby Photography" data-tier="Standard" data-price="₹5,999"
+                data-details="20 High-Quality Edited Copies">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Premium</div>
+              <div class="tier-price">₹7,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>40 High-Quality Edited Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Newborn Baby Photography" data-tier="Premium" data-price="₹7,999"
+                data-details="40 High-Quality Edited Copies">
+                Book This Package</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== KIDS PHOTOGRAPHY ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-slider-wrap">
+          <div class="pkg-slider" tabindex="0" aria-label="Kids photography gallery">
+            <img loading="lazy" src="https://i.ibb.co/SDKXP1fh/DSC01698.jpg" alt="Kids photography by Bhagyashree Studio 1">
+            <img loading="lazy" src="https://i.ibb.co/SDgc4s6F/DSC01765.jpg" alt="Kids photography by Bhagyashree Studio 2">
+            <img loading="lazy" src="https://i.ibb.co/k2fHkmxg/DSC01810.jpg" alt="Kids photography by Bhagyashree Studio 3">
+            <img loading="lazy" src="https://i.ibb.co/4nmY4w81/DSC00892.jpg" alt="Kids photography by Bhagyashree Studio 4">
+            <img loading="lazy" src="https://i.ibb.co/mCXH0sY3/DSC00874.jpg" alt="Kids photography by Bhagyashree Studio 5">
+            <img loading="lazy" src="https://i.ibb.co/8DRJTRp3/510A8817.jpg" alt="Kids photography by Bhagyashree Studio 6">
+            <img loading="lazy" src="https://i.ibb.co/BVh8c8sV/510A0047.jpg" alt="Kids photography by Bhagyashree Studio 7">
+            <img loading="lazy" src="https://i.ibb.co/hF37qjq6/DSC00841.jpg" alt="Kids photography by Bhagyashree Studio 8">
+          </div>
+          <button type="button" class="pkg-nav prev" aria-label="Previous photos">‹</button>
+          <button type="button" class="pkg-nav next" aria-label="Next photos">›</button>
+        </div>
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">🧒</span>
+            <h3>Kids Photography</h3>
+          </div>
+          <p class="pkg-cat-desc">Fun, playful and candid photography that captures real childhood moments.</p>
+          <div class="pkg-tiers tiers-3">
+            <div class="pkg-tier">
+              <div class="tier-name">Basic</div>
+              <div class="tier-price">₹2,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>10 Edited Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Kids Photography" data-tier="Basic" data-price="₹2,999"
+                data-details="10 Edited Copies|Soft Copies Included|Complimentary Exclusive Album">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Standard</div>
+              <div class="tier-price">₹4,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>20 Edited Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Kids Photography" data-tier="Standard" data-price="₹4,999"
+                data-details="20 Edited Copies|Soft Copies Included|Complimentary Exclusive Album">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Premium</div>
+              <div class="tier-price">₹7,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>40 Edited Copies</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Kids Photography" data-tier="Premium" data-price="₹7,999"
+                data-details="40 Edited Copies|Soft Copies Included|Complimentary Exclusive Album">
+                Book This Package</button>
+            </div>
+          </div>
+          <p class="pkg-special-note"><b>Special Inclusions:</b> All Kids packages include Soft Copies and a Complimentary Exclusive Album.</p>
+        </div>
+      </div>
+
+      <!-- ===== PRE-WEDDING PHOTOGRAPHY ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-slider-wrap">
+          <div class="pkg-slider" tabindex="0" aria-label="Pre-wedding photography gallery">
+            <img loading="lazy" src="https://i.ibb.co/xSXcvw80/IMG-20260910-110649.jpg" alt="Pre-wedding photography by Bhagyashree Studio 1">
+            <img loading="lazy" src="https://i.ibb.co/23FTR3dd/IMG-20260910-110705.jpg" alt="Pre-wedding photography by Bhagyashree Studio 2">
+            <img loading="lazy" src="https://i.ibb.co/GQQ0srf3/IMG-20260910-110720.jpg" alt="Pre-wedding photography by Bhagyashree Studio 3">
+            <img loading="lazy" src="https://i.ibb.co/RT1N8dhW/IMG-20260910-110734.jpg" alt="Pre-wedding photography by Bhagyashree Studio 4">
+            <img loading="lazy" src="https://i.ibb.co/20PPNnpg/IMG-20260910-110752.jpg" alt="Pre-wedding photography by Bhagyashree Studio 5">
+            <img loading="lazy" src="https://i.ibb.co/nNQQXgJk/IMG-20260910-110811.jpg" alt="Pre-wedding photography by Bhagyashree Studio 6">
+            <img loading="lazy" src="https://i.ibb.co/gMWNPMrq/IMG-20260910-110824.jpg" alt="Pre-wedding photography by Bhagyashree Studio 7">
+            <img loading="lazy" src="https://i.ibb.co/yxjnW8Y/IMG-20260910-110846.jpg" alt="Pre-wedding photography by Bhagyashree Studio 8">
+            <img loading="lazy" src="https://i.ibb.co/qLwBN9Wd/IMG-20260910-110904.jpg" alt="Pre-wedding photography by Bhagyashree Studio 9">
+          </div>
+          <button type="button" class="pkg-nav prev" aria-label="Previous photos">‹</button>
+          <button type="button" class="pkg-nav next" aria-label="Next photos">›</button>
+        </div>
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">💑</span>
+            <h3>Pre-Wedding Photography</h3>
+          </div>
+          <p class="pkg-cat-desc">Exclusive pre-wedding photography with high-quality cinematic videos.</p>
+          <div class="pkg-tiers tiers-2">
+            <div class="pkg-tier">
+              <div class="tier-name">Standard</div>
+              <div class="tier-price">₹29,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>Exclusive Pre-Wedding Photography</span></li>
+                <li><span class="mark">✦</span><span>High-Quality Cinematic Videos</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Pre-Wedding Photography" data-tier="Standard" data-price="₹29,999"
+                data-details="Exclusive Pre-Wedding Photography|High-Quality Cinematic Videos">
+                Book This Package</button>
+            </div>
+            <div class="pkg-tier">
+              <div class="tier-name">Premium</div>
+              <div class="tier-price">₹49,999</div>
+              <ul>
+                <li><span class="mark">✦</span><span>Photos</span></li>
+                <li><span class="mark">✦</span><span>Video Teaser</span></li>
+                <li><span class="mark">✦</span><span>Video Song</span></li>
+                <li><span class="mark">✦</span><span>Reels</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Pre-Wedding Photography" data-tier="Premium" data-price="₹49,999"
+                data-details="Photos|Video Teaser|Video Song|Reels">
+                Book This Package</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== MODELING & FAMILY SHOOT (no gallery yet) ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">📸</span>
+            <h3>Modeling &amp; Family Shoot</h3>
+          </div>
+          <div class="pkg-single-price">₹1,999</div>
+          <p class="pkg-cat-desc">A relaxed shoot for individuals, models or the whole family.</p>
+          <div class="pkg-tiers tiers-1">
+            <div class="pkg-tier">
+              <ul>
+                <li><span class="mark">✦</span><span>10 High-Quality Edited Copies</span></li>
+                <li><span class="mark">✦</span><span>Complimentary Exclusive Photo Album</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Modeling & Family Shoot" data-price="₹1,999"
+                data-details="10 High-Quality Edited Copies|Complimentary Exclusive Photo Album">
+                Book This Package</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== BIRTHDAY (existing, no gallery yet) ===== -->
+      <div class="pkg-category reveal">
+        <div class="pkg-category-body">
+          <div class="pkg-category-head">
+            <span class="pkg-icon" aria-hidden="true">🎂</span>
+            <h3>Birthday Package</h3>
+          </div>
+          <div class="pkg-single-price">₹5,000<span style="font-family:var(--sans-en);font-size:.62rem;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase;margin-left:.5rem;">Onwards</span></div>
+          <p class="pkg-cat-desc">Fun, candid coverage of birthday parties and celebrations for all ages.</p>
+          <div class="pkg-tiers tiers-1">
+            <div class="pkg-tier">
+              <ul>
+                <li><span class="mark">✦</span><span>2–3 hours of event coverage</span></li>
+                <li><span class="mark">✦</span><span>Candid photography</span></li>
+                <li><span class="mark">✦</span><span>Edited soft copies</span></li>
+                <li><span class="mark">✦</span><span>Quick turnaround delivery</span></li>
+              </ul>
+              <button type="button" class="btn btn-primary pkg-book"
+                data-package="Birthday Package" data-price="₹5,000 onwards"
+                data-details="2–3 hours of event coverage|Candid photography|Edited soft copies|Quick turnaround delivery">
+                Book This Package</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p class="packages-note">* Prices shown are starting estimates and may vary based on location, duration and requirements. Final pricing is always confirmed with you on WhatsApp before booking.</p>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="section-pad" id="gallery" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="services-head reveal">
+      <div class="eyebrow">Our Work</div>
+      <h2>A few selected moments.</h2>
+    </div>
+
+    <div class="gallery-filters" role="tablist" aria-label="Gallery filters">
+      <button class="gfilter active" data-filter="all">All</button>
+      <button class="gfilter" data-filter="wedding">Wedding</button>
+      <button class="gfilter" data-filter="prewedding">Pre-Wedding</button>
+      <button class="gfilter" data-filter="portrait">Portrait</button>
+      <button class="gfilter" data-filter="event">Events</button>
+    </div>
+
+    <div class="masonry" id="masonryGrid"><!-- populated by JS from galleryImages[] --></div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous image">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lb-next" id="lbNext" aria-label="Next image">›</button>
+</div>
+
+<!-- ================= HIGHLIGHTS ================= -->
+<section class="highlights">
+  <div class="container">
+    <div class="highlights-grid">
+      <div class="hl-item">
+        <div class="hnum">19+</div>
+        <span class="hlbl">Years of Experience</span>
+      </div>
+      <div class="hl-item">
+        <div class="hnum">Jalna</div>
+        <span class="hlbl">Local &amp; Trusted</span>
+      </div>
+      <div class="hl-item">
+        <div class="hnum">✦</div>
+        <span class="hlbl">Professional Photography</span>
+      </div>
+      <div class="hl-item">
+        <div class="hnum">❤</div>
+        <span class="hlbl">Beautiful Memories</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="section-pad" id="reviews">
+  <div class="container">
+    <div class="reviews-top reveal">
+      <div>
+        <div class="eyebrow">Reviews</div>
+        <h2>What Our Clients Say.</h2>
+      </div>
+      <a href="https://maps.app.goo.gl/Hnybs1sGhkQxk3397" target="_blank" rel="noopener" class="google-badge">
+        <span aria-hidden="true">🌐</span>
+        <span>See all our Reviews on Google</span>
+      </a>
+    </div>
+
+    <div class="reviews-grid">
+      <!-- Reviews are intentionally left for the studio owner to add verified quotes
+           directly from their Google Business Profile — no reviews are fabricated. -->
+      <div class="review-placeholder reveal">
+        <span style="font-size:1.6rem;">★★★★★</span>
+        <p>Genuine Google reviews from our clients will be added here soon.</p>
+      </div>
+      <div class="review-placeholder reveal">
+        <span style="font-size:1.6rem;">★★★★★</span>
+        <p>Verified reviews from our Google Business Profile can be displayed here.</p>
+      </div>
+      <div class="review-placeholder reveal">
+        <span style="font-size:1.6rem;">★★★★★</span>
+        <p>Share your experience with us — leave a review on Google.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE ================= -->
+<section class="section-pad" id="why" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="services-head reveal" style="margin-bottom:0;">
+      <div class="eyebrow">Why Choose Us</div>
+      <h2>Why Choose Bhagyashree Studio?</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="w-mark">✦</div>
+        <h3>Personal Attention</h3>
+        <p>Every client receives individual care and warm attention.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="w-mark">✦</div>
+        <h3>Beautiful Composition</h3>
+        <p>A strong focus on aesthetic framing in every photograph.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="w-mark">✦</div>
+        <h3>Moments That Matter</h3>
+        <p>Capturing your emotions in the camera, honestly.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="w-mark">✦</div>
+        <h3>Based in Jalna</h3>
+        <p>Easily accessible on R.P. Road, near Arya Samaj Mandir.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="w-mark">✦</div>
+        <h3>A Trusted Local Name</h3>
+        <p>Operating in Jalna for many years.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="w-mark">✦</div>
+        <h3>Easy to Reach</h3>
+        <p>Quick enquiries and bookings via Call or WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION + VIDEO ================= -->
+<section class="section-pad" id="location">
+  <div class="container">
+    <div class="services-head reveal">
+      <div class="eyebrow">Address</div>
+      <h2>Visit Our Studio.</h2>
+    </div>
+
+    <div class="video-wrap reveal">
+      <iframe src="https://www.youtube.com/embed/xGjOesSTXOk" title="Bhagyashree Studio video" loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+
+    <div class="location-wrap">
+      <div class="loc-card reveal">
+        <h3>Bhagyashree Studio</h3>
+        <div class="loc-row"><span class="ic">📍</span><span>R.P. Road, Near Arya Samaj Mandir, Jalna, Maharashtra – 431203</span></div>
+        <div class="loc-row"><span class="ic">📞</span><span><a href="tel:+919423459487">+91 94234 59487</a> &nbsp;/&nbsp; <a href="tel:+917020353606">+91 70203 53606</a></span></div>
+        <div class="loc-row"><span class="ic">✉️</span><span>bhagyashreedigimix@gmail.com</span></div>
+        <a href="https://maps.app.goo.gl/Hnybs1sGhkQxk3397" target="_blank" rel="noopener" class="btn btn-gold" style="align-self:flex-start;margin-top:.6rem;">
+          <span>Get Directions on Google Maps</span>
+        </a>
+      </div>
+      <div class="reveal">
+        <!-- Google Maps embed without an API key, using the verified address -->
+        <iframe class="map-embed" loading="lazy"
+          src="https://maps.google.com/maps?q=Bhagyashree%20Studio%2C%20R.P.%20Road%2C%20Near%20Arya%20Samaj%20Mandir%2C%20Jalna%2C%20Maharashtra%20431203&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          title="Bhagyashree Studio location on Google Maps" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / BOOKING ================= -->
+<section class="section-pad" id="contact" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-info reveal">
+        <div class="eyebrow">Contact</div>
+        <h2>Let's Capture Your Special Moment.</h2>
+        <p>Get in touch with Bhagyashree Studio today for your wedding, birthday, photoshoot, or any special occasion.</p>
+        <div class="contact-btns">
+          <a href="tel:+919423459487" class="btn btn-outline">📞 Call Now</a>
+          <a href="tel:+917020353606" class="btn btn-outline">📞 Call (Alt)</a>
+          <a href="#" id="contactWhatsapp" class="btn btn-primary" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+          <a href="https://maps.app.goo.gl/Hnybs1sGhkQxk3397" target="_blank" rel="noopener" class="btn btn-outline">📍 Location</a>
+        </div>
+        <div class="contact-detail">
+          <div><b>Address:</b> <span>R.P. Road, Near Arya Samaj Mandir, Jalna, Maharashtra – 431203</span></div>
+          <div><b>Phone:</b> <a href="tel:+919423459487">+91 94234 59487</a> / <a href="tel:+917020353606">+91 70203 53606</a></div>
+          <div><b>Email:</b> bhagyashreedigimix@gmail.com</div>
+        </div>
+      </div>
+
+      <form class="form-card reveal" id="enquiryForm">
+        <div class="field">
+          <label for="fName">Name</label>
+          <input type="text" id="fName" required autocomplete="name">
+        </div>
+        <div class="form-row two">
+          <div class="field">
+            <label for="fPhone">Mobile Number</label>
+            <input type="tel" id="fPhone" required autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="fDate">Preferred Date</label>
+            <input type="date" id="fDate">
+          </div>
+        </div>
+        <div class="field">
+          <label for="fPackage">Package</label>
+          <select id="fPackage">
+            <option value="">-- Select a package (optional) --</option>
+            <option value="Wedding Photography (₹1,05,000)">Wedding Photography (₹1,05,000)</option>
+            <option value="Pre-Wedding Photography (₹29,999 onwards)">Pre-Wedding Photography (₹29,999 onwards)</option>
+            <option value="Maternity Photography (₹4,999 onwards)">Maternity Photography (₹4,999 onwards)</option>
+            <option value="Newborn Baby Photography (₹3,999 onwards)">Newborn Baby Photography (₹3,999 onwards)</option>
+            <option value="Kids Photography (₹2,999 onwards)">Kids Photography (₹2,999 onwards)</option>
+            <option value="Modeling & Family Shoot (₹1,999)">Modeling &amp; Family Shoot (₹1,999)</option>
+            <option value="Birthday Package (₹5,000 onwards)">Birthday Package (₹5,000 onwards)</option>
+            <option value="Not sure yet / Other">Not sure yet / Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fEvent">Event Type</label>
+          <input type="text" id="fEvent" placeholder="e.g. Wedding, Pre-Wedding, Birthday">
+        </div>
+        <div class="field">
+          <label for="fMessage">Your Message</label>
+          <textarea id="fMessage"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Enquiry on WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final-cta">
+  <div class="fc-media">
+    <img loading="lazy" decoding="async" src="https://i.ibb.co/mVmH05TG/AFP8-Rc-NNXco-Xur-Mnc-BH9-C-fxzrng-KBOrw-IQU5u-TCL0m9-XAYAvs-Ap-EVFP5ofu-Ti-I2mu-Rz4-CQ-7-Ih1wg-I0-EIEEKx.jpg" alt="Beautiful photograph representing lasting memories, by Bhagyashree Studio">
+  </div>
+  <div class="container fc-inner">
+    <h2>Give Your Memories a Beautiful Frame.</h2>
+    <p>Get in touch with Bhagyashree Studio today.</p>
+    <div class="final-ctas">
+      <a href="#" id="finalWhatsapp" class="btn btn-gold" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="tel:+919423459487" class="btn btn-ghost-light">Call Now</a>
+      <a href="https://maps.app.goo.gl/Hnybs1sGhkQxk3397" target="_blank" rel="noopener" class="btn btn-ghost-light">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-title">Bhagyashree Studio</div>
+        <div class="footer-brand-sub">Photography Studio</div>
+        <p class="footer-tagline">Capture Moments. Preserve Memories.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>R.P. Road, Near Arya Samaj Mandir, Jalna, Maharashtra – 431203</p>
+        <a href="tel:+919423459487">+91 94234 59487</a>
+        <a href="tel:+917020353606">+91 70203 53606</a>
+        <a href="mailto:bhagyashreedigimix@gmail.com">bhagyashreedigimix@gmail.com</a>
+        <a href="https://maps.app.goo.gl/Hnybs1sGhkQxk3397" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Bhagyashree Studio. All Rights Reserved.</span>
+      <span>Jalna, Maharashtra</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= FLOATING BUTTONS ================= -->
+<div class="floating-btns">
+  <a href="#" id="floatWhatsapp" class="fbtn whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+  <a href="tel:+919423459487" class="fbtn call" aria-label="Call Bhagyashree Studio">📞</a>
+</div>
+
+<div class="mobile-stickybar">
+  <a href="tel:+919423459487"><span class="ic">📞</span><span>Call</span></a>
+  <a href="#" id="stickyWhatsapp" target="_blank" rel="noopener"><span class="ic">💬</span><span>WhatsApp</span></a>
+  <a href="https://maps.app.goo.gl/Hnybs1sGhkQxk3397" target="_blank" rel="noopener"><span class="ic">📍</span><span>Directions</span></a>
+</div>
+
+<script>
+/* =====================================================
+   CONFIG — edit these values to update the whole site
+   ===================================================== */
+// Verified phone number (from Google Maps-linked business listing)
+const STUDIO_PHONE = "919423459487"; // used for tel: and WhatsApp (no + or spaces)
+
+// WhatsApp number — using the same verified phone number.
+// If the studio's WhatsApp Business number is different from the landline/mobile
+// shown above, change ONLY this variable.
+const STUDIO_WHATSAPP = "919423459487";
+
+// Verified Google Maps link (primary source of truth for this business)
+const GOOGLE_MAPS_URL = "https://maps.app.goo.gl/Hnybs1sGhkQxk3397";
+
+// Default WhatsApp greeting used by the header/hero/footer quick-contact buttons
+const WA_GREETING = "Hello Bhagyashree Studio, I would like to enquire about photography.";
+
+/* Gallery images — replace each url with the studio's real photographs.
+   category must be one of: wedding | prewedding | portrait | event */
+const galleryImages = [
+  { url:"https://i.ibb.co/nsx3fKMB/AFP8-Rc-MKEwl-DGC0d-B6v-U1-Uy-YDGts-PCldk-WFH0-SDxi6nov-Quy9-Rd-KDVTSKmob-O3-Awf-ZE2yz-Pt-GUpqe3-Dk17-CF6qb.jpg", category:"wedding", alt:"Wedding photography by Bhagyashree Studio" },
+  { url:"https://i.ibb.co/vxC9ZDH7/PVD-9579.jpg", category:"wedding", alt:"Wedding celebration moment" },
+  { url:"https://i.ibb.co/8g9CZqrd/AFP8-Rc-PIFmp-X2r-Y8kg4-KEuv-Sc-RHky-7-HRylkk-Jd2-RCo-OPap-Qv-Wh-NN9k-Zm68-D26-Zx-WRV8-Da-Fl-Fn-ANj3lx-zjj.jpg", category:"portrait", alt:"Portrait photography session" },
+  { url:"https://i.ibb.co/DfBdX2z8/AFP8-Rc-M-Bhfa-CRFh-NBv8hx-6q-Sbz-DH0d0-Iay-SI-Lzqv-J5ik-Ck-IVe-cvjkjxg5bk1j-BEYkb-IRTx-rieqe-NQe-Y87-Y.jpg", category:"event", alt:"Event photography coverage" },
+  { url:"https://i.ibb.co/67GB97xx/624228314-18100258447849364-7541530437121340803-n.webp", category:"wedding", alt:"Wedding ceremony moment" },
+  { url:"https://i.ibb.co/3ybcdx7C/AFP8-Rc-PCUa-SYf-OQs-Li-Danon-Q1bfw-FVd-Ks-Pzd-AJCplk-BEQWp-VJUli-Iz7d-Ym-qgwn8-Tlt-Protf-Tx1-TF8-GZ9z-C.jpg", category:"prewedding", alt:"Pre-wedding couple photo" },
+  { url:"https://i.ibb.co/67RvMMDT/AFP8-Rc-Ni4-Fzr-YHf-XLj0l-Ab-Si-Hg-EYa6uc-C8-Pjhcdgdqc-Ys-RH2qveb-RSf-OTD5w2nw-1-WZz-LI-Pu-PBm-H03-X3-XTM9.jpg", category:"portrait", alt:"Family portrait photograph" },
+  { url:"https://i.ibb.co/JWnZ0Rzc/AFP8-Rc-M-TKx0-QW2-Al-M7n7p5-OWP8-T09-MFc-ZTIa-Vot2qi-D4-UG8i-V7-YRlqh-VDpb-K3hm-Iv-S0mcul-Rtx8-PV0yh-H6-Vjb-D.jpg", category:"event", alt:"Celebration event coverage" },
+  { url:"https://i.ibb.co/d4k98G3Q/AFP8-Rc-Plmeg-EV4qwcknwp0-Iic-Uqhr6-J-JL6-M7x-WRGFBJG5zis-YPUYQ3-Pj8-ZYCen-E63-XW9e-UOZn-LL9-Swb9-HMO0f-P-tm.jpg", category:"wedding", alt:"Wedding day details" },
+  { url:"https://i.ibb.co/8L8KhM1n/AFP8-Rc-PF3-Hx-GK5i-Td-KHDZ4j8w3-NGci-Ks-0-UIUZh-Gsdz-r-Epd-DZOE49-Qs6-EXs-Ypz-Rv0sf9t-J3n-QUWc-PMGPC0-BLim.jpg", category:"prewedding", alt:"Pre-wedding photography moment" },
+  { url:"https://i.ibb.co/mVmH05TG/AFP8-Rc-NNXco-Xur-Mnc-BH9-C-fxzrng-KBOrw-IQU5u-TCL0m9-XAYAvs-Ap-EVFP5ofu-Ti-I2mu-Rz4-CQ-7-Ih1wg-I0-EIEEKx.jpg", category:"portrait", alt:"Studio portrait photograph" },
+  { url:"https://i.ibb.co/xKLWf7wb/AFP8-Rc-Ob-l-O15-Q3-Gv-DQd-GEIiu-Knhdgigt-Eo2kcp-NO5k-CS4-I0-Lpw-NE6-N7-Xnh-Cf-D2gkz-Pjo-DFKRV2j-AWw-NEs-US.jpg", category:"event", alt:"Function photography coverage" },
+  { url:"https://i.ibb.co/Xxr7hwKh/AFP8-Rc-OQujg-BXu9pf-Zax-C-v-Ua-Xh-Ns-Ga-EW0p-DPzm1qv6pmr-AZBWb-JFz2-TOz-WV6-QEa-Va-S8-Xh-A08eeon-RJm-Kt.jpg", category:"wedding", alt:"Candid wedding moment" },
+  { url:"https://i.ibb.co/fVyBt27G/AFP8-Rc-OWx7-EN3-Ns-TLrmd-NWSpy-Tzbk-DHtem1k-Kc-rr-Dy-EKfb-WOWpk6uo-GHT2-M8s2zz30e-ANai-MMBt-NSDu-Bj-1-EY.jpg", category:"prewedding", alt:"Pre-wedding portrait" },
+  { url:"https://i.ibb.co/Q78HTbpQ/AFP8-Rc-NZ0-Z8i1g-Mt-Hh-Wn-K5-Cfe-VJt-Aftm-YPLl-QQcv-Jj5-PB9f-Bs-K-V4-n-GAhm-PBFJd4-i9-VJVeg-p-Cgps9-Kj21a.jpg", category:"portrait", alt:"Portrait photography by Bhagyashree Studio" },
+  { url:"https://i.ibb.co/GQdFKMjW/AFP8-Rc-Osikf-V7f-ESed-Djl-Gg6-K2mv-Fdlvx1x-I2-Lsrw-Rz5-Gaz-J-la6v-ZZWu-Fkdef8-Kp-PDizus-Qjj9-SPa1-Fe-UQLp.jpg", category:"event", alt:"Birthday celebration photography" },
+  { url:"https://i.ibb.co/39RhyyDX/AFP8-Rc-Nyn-W-nxtj-Fi-INn-GEgaj-Pqy-Vh-Sb-R06-Qa-Pe-Bnb-HSpl6-Dav-Uz-TZIBCh-k-Kah1n-bj-LPsp-NPPId-Vet.jpg", category:"wedding", alt:"Wedding photography moment" },
+  { url:"https://i.ibb.co/wF8jkBrF/AFP8-Rc-Ml-Er-Gk-S4-Kn3r-Ul-ENv-Qjz0m0-Tue-JNPQxi-Vj-BYJJUnh8g-XP6-Krp-BVa-WBo8py5-Pg-GIk-ZUUme1emqd3c-Fh.jpg", category:"prewedding", alt:"Couple photoshoot" },
+  { url:"https://i.ibb.co/bgGgp8zF/PVD-9041.jpg", category:"wedding", alt:"Bridal photography moment" },
+  { url:"https://i.ibb.co/BVhNLCmp/510A5874.jpg", category:"portrait", alt:"Maternity photography by Bhagyashree Studio" },
+  { url:"https://i.ibb.co/gMqmpjBs/DSC01541.jpg", category:"portrait", alt:"Newborn baby photography by Bhagyashree Studio" },
+  { url:"https://i.ibb.co/4nmY4w81/DSC00892.jpg", category:"portrait", alt:"Kids photography by Bhagyashree Studio" }
+];
+
+/* =====================================================
+   LOADER
+   ===================================================== */
+(function(){
+  const loader = document.getElementById("loader");
+  let hidden = false;
+  function hideLoader(){
+    if(hidden) return;
+    hidden = true;
+    loader.classList.add("hide");
+  }
+  // Hide as soon as the page is interactive (don't wait for every image/video/map
+  // to finish downloading) — feels instant even on slow mobile connections.
+  if(document.readyState === "complete" || document.readyState === "interactive"){
+    setTimeout(hideLoader, 350);
+  } else {
+    document.addEventListener("DOMContentLoaded", ()=> setTimeout(hideLoader, 350));
+  }
+  // Safety net in case something above is delayed for any reason.
+  setTimeout(hideLoader, 2000);
+})();
+
+/* =====================================================
+   NAV SCROLL STATE
+   ===================================================== */
+const header = document.getElementById("siteHeader");
+window.addEventListener("scroll", ()=>{
+  header.classList.toggle("scrolled", window.scrollY > 40);
+}, { passive:true });
+
+/* =====================================================
+   MOBILE MENU
+   ===================================================== */
+const hamburgerBtn = document.getElementById("hamburgerBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+const menuBackdrop = document.getElementById("menuBackdrop");
+function toggleMenu(open){
+  const isOpen = open !== undefined ? open : !mobileMenu.classList.contains("open");
+  mobileMenu.classList.toggle("open", isOpen);
+  menuBackdrop.classList.toggle("open", isOpen);
+  hamburgerBtn.classList.toggle("open", isOpen);
+  hamburgerBtn.setAttribute("aria-expanded", isOpen ? "true":"false");
+}
+hamburgerBtn.addEventListener("click", ()=>toggleMenu());
+menuBackdrop.addEventListener("click", ()=>toggleMenu(false));
+mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>toggleMenu(false)));
+
+/* =====================================================
+   WHATSAPP LINKS
+   ===================================================== */
+function buildWaLink(message){
+  return `https://wa.me/${STUDIO_WHATSAPP}?text=${encodeURIComponent(message)}`;
+}
+function refreshWaLinks(){
+  ["heroWhatsapp","contactWhatsapp","finalWhatsapp","floatWhatsapp","stickyWhatsapp"].forEach(id=>{
+    const el = document.getElementById(id);
+    if(el) el.href = buildWaLink(WA_GREETING);
+  });
+}
+refreshWaLinks();
+
+/* =====================================================
+   GALLERY RENDER + FILTER
+   ===================================================== */
+const masonryGrid = document.getElementById("masonryGrid");
+function renderGallery(){
+  masonryGrid.innerHTML = "";
+  galleryImages.forEach((img, i)=>{
+    const div = document.createElement("div");
+    div.className = "g-item reveal";
+    div.setAttribute("data-cat", img.category);
+    div.setAttribute("data-index", i);
+    div.innerHTML = `
+      <img loading="lazy" src="${img.url}" alt="${img.alt}">
+      <div class="g-overlay"><span>${img.alt}</span></div>
+    `;
+    div.addEventListener("click", ()=>openLightbox(i));
+    masonryGrid.appendChild(div);
+  });
+  observeReveals();
+}
+renderGallery();
+
+document.querySelectorAll(".gfilter").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".gfilter").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.getAttribute("data-filter");
+    document.querySelectorAll(".g-item").forEach(item=>{
+      const match = filter === "all" || item.getAttribute("data-cat") === filter;
+      item.classList.toggle("hidden-item", !match);
+    });
+  });
+});
+
+/* =====================================================
+   LIGHTBOX
+   ===================================================== */
+const lightbox = document.getElementById("lightbox");
+const lbImg = document.getElementById("lbImg");
+let lbIndex = 0;
+let lbImages = galleryImages;   // which image list the lightbox is currently showing
+let lbUseFilter = true;         // true = respect the main gallery's active filter (wedding/portrait/etc.)
+function visibleIndexes(){
+  if(!lbUseFilter){
+    return lbImages.map((_,i)=>i);
+  }
+  return galleryImages.map((_,i)=>i).filter(i=>{
+    const el = document.querySelector(`.g-item[data-index="${i}"]`);
+    return el && !el.classList.contains("hidden-item");
+  });
+}
+function openLightbox(i, images = galleryImages, useFilter = true){
+  lbImages = images;
+  lbUseFilter = useFilter;
+  lbIndex = i;
+  lbImg.src = lbImages[i].url;
+  lbImg.alt = lbImages[i].alt;
+  lightbox.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeLightbox(){
+  lightbox.classList.remove("open");
+  document.body.style.overflow = "";
+}
+function stepLightbox(dir){
+  const list = visibleIndexes();
+  let pos = list.indexOf(lbIndex);
+  pos = (pos + dir + list.length) % list.length;
+  openLightbox(list[pos], lbImages, lbUseFilter);
+}
+document.getElementById("lbClose").addEventListener("click", closeLightbox);
+document.getElementById("lbPrev").addEventListener("click", ()=>stepLightbox(-1));
+document.getElementById("lbNext").addEventListener("click", ()=>stepLightbox(1));
+lightbox.addEventListener("click", (e)=>{ if(e.target === lightbox) closeLightbox(); });
+document.addEventListener("keydown", (e)=>{
+  if(!lightbox.classList.contains("open")) return;
+  if(e.key === "Escape") closeLightbox();
+  if(e.key === "ArrowLeft") stepLightbox(-1);
+  if(e.key === "ArrowRight") stepLightbox(1);
+});
+// basic touch swipe support
+let touchStartX = 0;
+lightbox.addEventListener("touchstart", e=>{ touchStartX = e.changedTouches[0].screenX; }, {passive:true});
+lightbox.addEventListener("touchend", e=>{
+  const dx = e.changedTouches[0].screenX - touchStartX;
+  if(Math.abs(dx) > 50) stepLightbox(dx > 0 ? -1 : 1);
+}, {passive:true});
+
+/* =====================================================
+   PACKAGE "BOOK THIS PACKAGE" BUTTONS
+   -> build a WhatsApp message with the full package
+      details (name, tier, price, inclusions) and open it
+      directly on WhatsApp for booking confirmation
+   ===================================================== */
+document.querySelectorAll(".pkg-book").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    const pkgName = btn.getAttribute("data-package") || "";
+    const tier = btn.getAttribute("data-tier") || "";
+    const price = btn.getAttribute("data-price") || "";
+    const details = (btn.getAttribute("data-details") || "").split("|").map(s=>s.trim()).filter(Boolean);
+    const fullName = tier ? `${pkgName} - ${tier}` : pkgName;
+
+    let text = `Hello Bhagyashree Studio,\n\nI would like to book the following package:\n\nPackage: ${fullName}\nPrice: ${price}\n`;
+    if(details.length){
+      text += `\nPackage Includes:\n` + details.map(d=>`- ${d}`).join("\n") + `\n`;
+    }
+    text += `\nPlease share availability and confirm my booking.\n\nThank you.`;
+
+    window.open(buildWaLink(text), "_blank");
+  });
+});
+
+/* =====================================================
+   PACKAGE PHOTO SLIDERS
+   -> smooth left/right scroll through each package's
+      photos, with arrow buttons + mouse-wheel support
+   ===================================================== */
+document.querySelectorAll(".pkg-slider-wrap").forEach(wrap=>{
+  const track = wrap.querySelector(".pkg-slider");
+  const prevBtn = wrap.querySelector(".pkg-nav.prev");
+  const nextBtn = wrap.querySelector(".pkg-nav.next");
+  if(!track) return;
+  const step = ()=> Math.min(track.clientWidth * 0.85, 620);
+  prevBtn?.addEventListener("click", ()=> track.scrollBy({ left: -step(), behavior:"smooth" }));
+  nextBtn?.addEventListener("click", ()=> track.scrollBy({ left: step(), behavior:"smooth" }));
+  track.addEventListener("wheel", (e)=>{
+    if(Math.abs(e.deltaY) > Math.abs(e.deltaX)){
+      track.scrollLeft += e.deltaY;
+      e.preventDefault();
+    }
+  }, { passive:false });
+});
+
+/* =====================================================
+   PACKAGE SLIDER IMAGES -> LIGHTBOX (full, uncropped view)
+   -> the slider thumbnails are cropped to a fixed size to
+      keep the strip neat; clicking one opens the full,
+      uncropped photo in the same lightbox used by the
+      gallery, with prev/next cycling through that
+      package's own photos only
+   ===================================================== */
+document.querySelectorAll(".pkg-slider").forEach(slider=>{
+  const imgs = Array.from(slider.querySelectorAll("img"));
+  const list = imgs.map(img => ({ url: img.src, alt: img.alt }));
+  imgs.forEach((img, i)=>{
+    img.addEventListener("click", ()=> openLightbox(i, list, false));
+  });
+});
+
+/* =====================================================
+   ENQUIRY FORM -> WHATSAPP
+   (collects name, phone, date, package, event type and
+   message, then redirects everything to WhatsApp)
+   ===================================================== */
+document.getElementById("enquiryForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  const name = document.getElementById("fName").value.trim();
+  const phone = document.getElementById("fPhone").value.trim();
+  const date = document.getElementById("fDate").value.trim();
+  const pkg = document.getElementById("fPackage").value.trim();
+  const event = document.getElementById("fEvent").value.trim();
+  const message = document.getElementById("fMessage").value.trim();
+
+  const text =
+`Hello Bhagyashree Studio,
+
+I would like to enquire about photography.
+
+Name: ${name}
+Mobile: ${phone}
+Package: ${pkg || "Not specified"}
+Event: ${event || "Not specified"}
+Preferred Date: ${date || "Not specified"}
+Message: ${message || "-"}
+
+Thank you.`;
+
+  window.open(buildWaLink(text), "_blank");
+});
+
+/* =====================================================
+   REVEAL ON SCROLL
+   ===================================================== */
+function observeReveals(){
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add("is-visible");
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold:0.12 });
+  document.querySelectorAll(".reveal:not(.is-visible)").forEach(el=>io.observe(el));
+}
+observeReveals();
+</script>
+</body>
+</html>
